@@ -1,0 +1,25 @@
+body{
+  background-color: $background;
+}
+h1,h2,h3,h4{
+  color: $title;
+  font-weight: 500;
+}
+p{
+  color: $text;
+}
+
+.dashboard{
+  text-align: center;
+  margin-top: 60px;
+}
+.logo{
+  cursor: pointer;
+}
+.width-100{
+  width: 100%;
+}
+.container{
+  padding: 50px 12px;
+}
+

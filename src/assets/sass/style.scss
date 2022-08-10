@@ -1,0 +1,14 @@
+// Variables
+@import "@/assets/sass/_variables.scss";
+
+// Vuetify
+$color-pack: false;
+@import '~vuetify/src/styles/main.sass';
+
+// Overwrite vuetify styling
+@import "@/assets/sass/_vuetify.scss";
+
+// Other styles
+@import "@/assets/sass/_main.scss";
+@import "@/assets/sass/_flash.scss";
+@import "@/assets/sass/_customergroup.scss";

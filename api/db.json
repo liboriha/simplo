@@ -1,0 +1,63 @@
+{
+  "customers": [
+    {
+      "forename": "Pepa",
+      "surname": "Kopečný",
+      "email": "pepa@email.cz",
+      "id": 1
+    },
+    {
+      "forename": "Libor",
+      "surname": "Říha",
+      "email": "libor@email.cz",
+      "id": 2
+    },
+    {
+      "forename": "Patrik",
+      "surname": "Veselý",
+      "email": "patrik@email.cz",
+      "id": 3
+    },
+    {
+      "forename": "Jirka",
+      "surname": "Tučný",
+      "email": "jirka@email.cz",
+      "id": 4
+    },
+    {
+      "forename": "Eva",
+      "surname": "Čermáková",
+      "email": "eva@email.cz",
+      "id": 5
+    }
+  ],
+  "customerGroups": [
+    {
+      "name": "Programátoři",
+      "description": "Vyvíjejí webové aplikace",
+      "id": 1,
+      "customers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "Grafici",
+      "description": "Starají se o UI aplikací",
+      "id": 2,
+      "customers": [
+        4
+      ]
+    },
+    {
+      "name": "Projektový manažeři",
+      "description": "Komunikují mezi zákazníkem a zaměstnanci",
+      "id": 3,
+      "customers": [
+        5,
+        3
+      ]
+    }
+  ]
+}
